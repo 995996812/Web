@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.top{
+	background-color: rgb(205,205,202);
+	height: 26px;
+	border-bottom: 1px solid green;
+}

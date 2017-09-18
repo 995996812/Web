@@ -1,0 +1,31 @@
+/* S 导航条开始*/
+p {
+	background-color: red;
+}
+/* E 导航条结束*/
+h1 {
+	color: green;
+}
+
+span {
+	font-size: 50px;
+}
+/*  *:是一个通配符选择器,能匹配到页面中所有的标签; */
+* {
+	font-size: 16px;
+}
+/*HTML标签中 id的属性值必须是唯一的*/
+/*id选择器,根据标签的id属性值进行选取,设置样式.id选择器的符号是#*/
+#p1 {
+
+	font-size: 20px;
+}
+
+#p2 {
+
+	font-size: 40px;
+}
+/* .为类选择器: */
+.web {
+	color: gray;
+}

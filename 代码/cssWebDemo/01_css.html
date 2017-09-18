@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>这是一个css案列</title>
+<!-- 嵌入样式:  是在head标签中嵌套一个style标签,style标签中可以书写css样式 -->
+<!-- style样式中有一个默认属性type,默认属性可以省略 -->
+	<style type="text/css">
+		/*导入样式,将某一个css文件直接导入到当前位置*/
+		/*导入样式必须写在其他样式之前*/
+		@import url(CSS/main.css);
+		p {
+			color: green;/*设置前景色,也就是字体的颜色*/
+			background-color: silver;
+		}
+		ul {
+			background-color: red;
+		}
+	</style>
+	<!-- 外联css样式: -->
+	<!-- <link rel="stylesheet" href="CSS/main.css"> -->
+</head>
+<body>
+	<!-- id, name, style 常见的三种属性-->
+	<!-- 行内样式 -->
+	<h1 style="color: red; font-size: 20px;">前端开发</h1>
+	<p>这是一个段落标签</p>
+
+	<ul>
+		<li><a href="#">上海</a></li>
+		<li><a href="#">北京</a></li>
+		<li><a href="#">广州</a></li>
+	</ul>
+</body>
+</html>
