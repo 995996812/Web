@@ -33,6 +33,10 @@ table {
 	border-spacing:0;
 }
 
+a {
+	text-decoration: none;
+}
+
 em,
 strong,
 b,

@@ -1,7 +1,33 @@
 @charset "utf-8";
 
+html{
+	font: 12px '宋体';
+}
+a{
+	color: #000000;
+}
 .top{
-	background-color: rgb(205,205,202);
+	background-color: #F7F7F7;
 	height: 26px;
-	border-bottom: 1px solid green;
+	border-bottom: 1px solid #D8D8D8;
+}
+.top_page{
+	width: 970px;
+	height: 26px;
+	margin: 0 auto;
+}
+.top_page_l{
+	line-height: 26px;
+}
+.top_page_r ul li{
+	float: left;
+	line-height: 26px;
+	padding-right: 10px;
+}
+.top_page_r ul li s{
+	width: 14px;
+	height: 12px;
+	background: url(../image/sprite.png);
+	display: inline-block;
+	vertical-align: middle;
 }
