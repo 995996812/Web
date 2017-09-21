@@ -31,3 +31,113 @@ a{
 	display: inline-block;
 	vertical-align: middle;
 }
+.logo{
+	width: 970px;
+	height: 98px;
+	margin: 0 auto;
+}
+.logo_l{
+	margin: 24px 0px 19px 9px;
+	width: 200px;
+	height: 55px;
+	background: url(../image/sprite.png) -20px 0;
+	text-indent: -1000em;
+}
+.logo_r{
+	width: 530px;
+	height: 42px;
+	border: 1px solid #c9c9c9;
+	margin-top: 29px;	
+}
+.logo_r_content{
+	margin:5px 5px 5px 4px;
+}
+.logo_r_search{
+	width: 420px;
+	height: 30px;
+	color: #999999;
+	border: 1px solid #c9c9c9;
+}
+.logo_r_button{
+	width: 99px;
+	height: 32px;
+	color: white;
+	background-color: #2f70d0
+}
+.nav{
+	width: 970px;
+	height: 25px;
+	margin:0 auto;
+	border-bottom: 2px solid #0266A3;
+}
+
+.nav li{
+	padding: 0 15px 0 15px;
+	line-height: 25px;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.nav li a{
+	color: #0266A3;
+}
+
+.nav li:hover{
+	background-color: #0266A3;
+}
+
+.nav li:hover a{
+	color: white;
+}
+
+.banner{
+	width: 970px;
+	height: 210px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.banner_subNav{
+	width: 200px;
+	height: 210px;
+}
+
+.banner_ad{
+	margin-left: 10px;
+	width: 520px;
+	height: 210px;
+}
+
+.banner_message{
+	width: 230px;
+	height: 210px;
+}
+
+.banner_subNav h2{
+	padding-left: 20px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	background-color: #0266A3;
+}
+
+.banner_subNav ul li s {
+	display: inline-block;
+	width: 15px;
+	height: 13px;
+	background: url(../image/sprite.png);
+	vertical-align: middle;
+}
+
+.banner_subNav li{
+	font-size: 15px;
+	padding-top: 12px;
+}
+
+
+
+
+
