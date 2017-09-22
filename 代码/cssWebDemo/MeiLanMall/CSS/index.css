@@ -106,6 +106,7 @@ a{
 .banner_ad{
 	margin-left: 10px;
 	width: 520px;
+	background-color: yellow;
 	height: 210px;
 }
 
@@ -132,11 +133,149 @@ a{
 	vertical-align: middle;
 }
 
-.banner_subNav li{
-	font-size: 15px;
-	padding-top: 12px;
+.banner_subNav ul{
+	height: 180px;
+	background: #e8f0f6;
 }
 
+.banner_subNav li{
+	font-size: 15px;
+	padding-top: 8px;
+	margin-left: 9px;
+}
+
+.banner_subNav li a{
+	padding-left: 15px;
+}
+
+.message_top{
+	height: 95px;
+	border: 1px solid #dddddd;
+	background-color: #f7faff;
+}
+
+.message_top s {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../image/sprite.png) -20px 0;
+	margin: 20px 10px 0px 10px;
+}
+
+.message_top .fw{
+	padding: 7px 0 0 8px;
+	font-weight: bold;
+}
+
+.message_top .cheap{
+	margin-top: 25px;
+}
+
+.message_top a{
+	font-weight: bold;
+}
+
+.message_bottom{
+	margin-top: 20px;
+	height: 92px;
+	background-color: #e8e0f6;
+}
+
+.message_bottom .findMessage{
+	text-align: center;
+	font-size: 14px;
+	padding-top: 11px;
+}
+
+.message_bottom .phoneNumber{
+	padding-top: 5px;
+	text-align: center;
+	font-size: 14px;
+	color: #3f9ce0;
+}
+
+.message_bottom .phoneNumber s {
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	background: url(../image/sprite.png);
+}
+
+.message_bottom .btn{
+	margin: 9px 0px 0px 75px;
+	width: 81px;
+	height: 23px;
+	background: url(../image/sprite.png) -20px 0;
+}
+
+.material{
+	border-top: 2px solid #c3d7e4;
+	width: 950px;
+	height: 34px;
+	margin: 0 auto;
+	margin-top: 14px;
+	line-height: 34px;
+	background-color: #ECF1F7;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+.product{
+	width: 970px;
+	height: 345px;
+	background: red;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+
+.product_left{
+	width: 738px;
+	height: 345px;
+	border: 1px solid #d8d8d8;
+}
+
+.product_l_top{
+	height: 155px;
+	width: 712px;
+	padding: 17px 0 0 26px;
+	background: yellow;
+}
+
+.product_l_top_first{
+	width: 350px;
+	height: 146px;
+	background: pink;
+}
+
+.product_first_buy{
+	width: 99px;
+	height: 143px;
+	background-color: blue;
+}
+
+.product_first_explain{
+	width: 250px;
+	height: 143px;
+	background: red;
+}
+
+.img{
+	border: 1px #d8d8d8;
+	height: 100px;
+}
+
+.product_line{
+	width: 738px;
+	height: 2px;
+	background-color: #d8d8d8;
+}
+
+.product_right{
+	width: 230px;
+	height: 345px;
+	background: green;
+}
 
 
 
